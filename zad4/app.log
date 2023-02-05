@@ -1,0 +1,31 @@
+root - INFO - frame (2628): Assigned_location
+
+[URL] https://framenet2.icsi.berkeley.edu/fnReports/data/frame/Assigned_location.xml
+
+[definition]
+  An Individual is assigned a Station to remain at, usually in
+  order to accomplish a task. The Station may have an intended use
+  based on its features (e.g., a vendor's booth), or it may be
+  temporarily assigned a use.  'The guards who remained at their
+  stations had no idea what was going on two floors below.'
+  'Return to your post!'
+
+[semTypes] 0 semantic types
+
+[frameRelations] 3 frame relations
+  <Parent=Locale -- Inheritance -> Child=Assigned_location>
+  <Parent=Being_obligated -- Using -> Child=Assigned_location>
+  <Source=Placing -- ReFraming_Mapping -> Target=Assigned_location>
+
+[lexUnit] 3 lexical units
+  place.n (16540), post.n (16539), station.n (16538)
+
+
+[FE] 9 frame elements
+            Core: Responsible_party (14874), Station (14865)
+      Peripheral: Relative_location (14867), Task (14873)
+  Extra-Thematic: Constituent_parts (14866), Container_possessor (14869), Descriptor (14871), Formational_cause (14868), Related_event (14872)
+
+[FEcoreSets] 0 frame element core sets
+  
+
